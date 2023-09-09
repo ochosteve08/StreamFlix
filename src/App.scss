@@ -1,0 +1,26 @@
+@import './common/colors.scss';
+
+*{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+body{
+  background: $primary-color;
+  font-family: 'Handlee', cursive;
+  color: $font-primary;
+
+  .app{
+    
+    .container{
+    margin: 0 40px;
+     min-height: 80vh;
+    
+
+  }
+  }
+
+  
+  
+}
