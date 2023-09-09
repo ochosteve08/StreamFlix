@@ -2,7 +2,11 @@
 nav{
   background-color: $secondary-color;
 min-height: 72px;
-max-height: 120px;
+max-height: 130px;
+position: sticky;
+width: 100%;
+top: 0;
+
   
 .header{
 
@@ -31,6 +35,7 @@ justify-content: space-between;
             width: 100%;
             height:38px;
             outline: none;
+            margin-right: 5px;
             
 
           }
@@ -69,14 +74,15 @@ justify-content: space-between;
         
         form{
           display: flex;
-          width: 50%;
+          width: 80%;
           input{
             padding: 3px 5px;
             font-size: 18px;
             width: 100%;
             height:38px;
             outline: none;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            margin-right: 5px;
           
 
           }
